@@ -1,0 +1,99 @@
+
+/* 1. SELECTOR UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. SELECTOR DE ETIQUETA */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    color: #444;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #e8a6bd;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* 3. SELECTOR DESCENDENTE */
+.contenedor p {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+/* 4. SELECTOR POR CLASE */
+.tarjeta {
+    background-color: white;
+    border: 2px solid #e8a6bd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* 5. SELECTOR POR ID */
+#bienvenida {
+    color: #c0527c;
+    font-size: 19px;
+    text-align: center;
+}
+
+/* 6. SELECTORES COMBINADOS */
+h2.subtitulo {
+    color: #bd547b;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* 7. SELECTOR HIJO DIRECTO */
+.contenedor > section {
+    padding: 20px;
+}
+
+/* 8. SELECTOR ADYACENTE */
+h2 + p {
+    text-align: center;
+}
+
+/* 9. SELECTOR GENERAL DE HERMANOS */
+h3 ~ p {
+    color: #8c4964;
+}
+
+/* 10. SELECTOR POR ATRIBUTO */
+a[target] {
+    color: #bd547b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Estilos adicionales */
+nav {
+    background-color: #f7d5e1;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #8c4964;
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 25px;
+    line-height: 2;
+}
+
+footer {
+    background-color: #e8a6bd;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
